@@ -1,5 +1,24 @@
 # Changelog
 
+## [2026.2.10](https://github.com/jdx/mise/compare/v2026.2.9..v2026.2.10) - 2026-02-10
+
+### 🐛 Bug Fixes
+
+- **(install)** use version_expr for Flutter to fix version resolution by @jdx in [#8081](https://github.com/jdx/mise/pull/8081)
+- **(release)** write release notes to file instead of capturing stdout by @jdx in [#8086](https://github.com/jdx/mise/pull/8086)
+
+### 📦 Registry
+
+- add conda backend for mysql by @jdx in [#8080](https://github.com/jdx/mise/pull/8080)
+- add conda backends for 10 asdf-only tools by @jdx in [#8083](https://github.com/jdx/mise/pull/8083)
+
+### 📦 Aqua Registry Updates
+
+#### Updated Packages (2)
+
+- [`atuinsh/atuin`](https://github.com/atuinsh/atuin)
+- [`tuist/tuist`](https://github.com/tuist/tuist)
+
 ## [2026.2.9](https://github.com/jdx/mise/compare/v2026.2.8..v2026.2.9) - 2026-02-10
 
 ### 🚀 Features
